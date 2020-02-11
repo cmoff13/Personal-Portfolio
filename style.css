@@ -1,0 +1,60 @@
+/* CSS reset */
+body, p, h1, h2, h3, h4, h5, h6 {
+    padding: 0;
+    margin: 0;
+    font-family: Raleway;
+}
+
+/* box model fix here */
+* { -moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box; }
+
+
+#navbar {
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    background-color: lightgray;
+    position: fixed;
+}
+
+#navbar a:hover {
+    color: white;
+}
+
+.navlist {
+    display: flex;
+    list-style: none;
+    font-size: 2rem;
+    line-height: 1.4;
+    font-weight: 400px;
+ 
+}
+
+.navlist a {
+    text-decoration: none;
+}
+
+ul {
+    list-style: none;
+}
+
+.welcome-section {
+    background-color: darkgrey;
+}
+h1 h3 {
+    color: white;
+}
+
+#project-list {
+    display: flex;
+    justify-content: space-evenly;
+
+}
+
+figure img {
+    max-height: 10rem;
+}
+
+i {
+    width: 60px;
+}
