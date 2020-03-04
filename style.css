@@ -74,6 +74,10 @@ figure img {
     max-height: 10rem;
 }
 
+.uvu {
+    width: 200px;
+}
+
 #contact {
     display: flex;
     justify-content: center;
@@ -103,6 +107,16 @@ footer {
     color: white;
     text-align: center;
 
+}
+
+
+button {
+    height: 3rem;
+    border-radius: 5%;
+    font-size: larger;
+    background-color: #2a8c99;
+    color: white;
+    font-weight: 800;
 }
 
 
