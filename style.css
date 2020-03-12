@@ -1,139 +1,25 @@
-* {
-    margin: 0;
-    padding: 0;
+:root {
+    box-sizing: border-box;
+}
+
+body {
     font-family: Raleway;
 }
 
-
-#navbar {
-    width: 100%;
+.container {
     display: flex;
-    justify-content: flex-end;
-    background-color: lightgray;
-    position: fixed;
 }
 
-#navbar a:hover {
-    color: white;
-}
-
-.nav-list {
-    display: flex;
-    list-style-type: none;
-    font-size: 2rem;
-    font-weight: 400;
- 
-}
-
-.nav-list a {
-    display: block;
-    font-size: 2.2rem;
-    padding: 2rem;
-    text-decoration: none;
-    color: white;
-}
-
-.nav-list a:hover  {
-    color:  rgb(216, 91, 91);
-}
-
-#welcome-section {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    width: 100%;
-    height: 100vh;
-    background-color: rgb(216, 91, 91);
-}
-
-h1 {
-    font-size: 50px;
-}
-
-h3 {
-    font-size: 25px;
-}
-
-h1, h3 {
-    margin: 4px;
-    color: white;
-}
-
-#project-list {
-    display: flex;
-    justify-content: space-evenly;
-
-}
-
-i {
-    width: 60px;
-}
-
-figure img {
-    max-height: 10rem;
-}
-
-.uvu {
-    width: 200px;
-}
-
-#contact {
-    display: flex;
-    justify-content: center;
-    padding: 1.5rem;
-    margin: 1.5rem;
-    width: 100%;
-    flex-wrap: wrap;
-    font-family: Raleway;
-    text-decoration: none;
-}
-
-#contact a {
-    margin: 1rem;
+.nav {
+    border: solid 2px black;
+    padding-right: 1rem;
 }
 
 a {
     text-decoration: none;
-}
-
-footer {
-    display: flex;
-    justify-content: center;
-    align-items: center;
     font-size: 1.25rem;
-    height: 60px;
-    background-color: grey;
-    color: white;
-    text-align: center;
-
 }
 
-
-button {
-    height: 3rem;
-    border-radius: 5%;
-    font-size: larger;
-    background-color: #2a8c99;
-    color: white;
-    font-weight: 800;
-}
-
-
-@media (max-width: 75em) {
-    html {
-        font-size: 60%;
-    }
-}
-
-@media (max-width: 61.25em) {
-    html {
-        font-size: 55%;
-    }
-}
-
-@media (max-width: 28.75em) {
-    html {
-        font-size: 45%;
-    }
+li {
+    list-style: none;
 }
